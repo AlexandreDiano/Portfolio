@@ -1,0 +1,162 @@
+{
+  "knowledge": [
+    {
+      "title": "Typescript",
+      "url": "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg"
+    },
+    {
+      "title": "Javascript",
+      "url": "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+    },
+    {
+      "title": "NextJS",
+      "url": "https://cdn.worldvectorlogo.com/logos/next-js.svg"
+    },
+    {
+      "title": "Python",
+      "url": "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
+    },
+    {
+      "title": "OpenCV",
+      "url": "https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg"
+    },
+    {
+      "title": "C",
+      "url": "https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg"
+    },
+    {
+      "title": "C++",
+      "url": "https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg"
+    },
+    {
+      "title": "DJango",
+      "url": "https://cdn.worldvectorlogo.com/logos/django.svg"
+    },
+    {
+      "title": "Flask",
+      "url": "https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg"
+    },
+    {
+      "title": "Docker",
+      "url": "https://cdn.worldvectorlogo.com/logos/docker-4.svg"
+    },
+    {
+      "title": "GoLang",
+      "url": "https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg"
+    },
+    {
+      "title": "GraphQL",
+      "url": "https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg"
+    },
+    {
+      "title": "Jest",
+      "url": "https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg"
+    },
+    {
+      "title": "Cypress",
+      "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/6e46ec1fc23b60c8fd0d2f2ff46db82e16dbd75f/icons/cypress.svg"
+    },
+    {
+      "title": "React",
+      "url": "https://reactnative.dev/img/header_logo.svg"
+    },
+    {
+      "title": "PostgreSQL",
+      "url": "https://cdn.worldvectorlogo.com/logos/postgresql.svg"
+    },
+    {
+      "title": "MySQL",
+      "url": "https://cdn.worldvectorlogo.com/logos/mysql-6.svg"
+    },
+    {
+      "title": "MongoDB",
+      "url": "https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg"
+    },
+    {
+      "title": "NestJS",
+      "url": "https://raw.githubusercontent.com/devicons/devicon/master/icons/nestjs/nestjs-plain.svg"
+    },
+    {
+      "title": "NodeJS",
+      "url": "https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg"
+    },
+    {
+      "title": "Express",
+      "url": "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg"
+    },
+    {
+      "title": "Ruby on Rails",
+      "url": "https://cdn.worldvectorlogo.com/logos/rails-1.svg"
+    },
+    {
+      "title": "Redux",
+      "url": "https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg"
+    },
+    {
+      "title": "Firebase",
+      "url": "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg"
+    },
+    {
+      "title": "Arduino",
+      "url": "https://cdn.worldvectorlogo.com/logos/arduino-1.svg"
+    },
+    {
+      "title": "PyTorch",
+      "url": "https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg"
+    },
+    {
+      "title": "TensorFlow",
+      "url": "https://cdn.worldvectorlogo.com/logos/tensorflow-2.svg"
+    },
+    {
+      "title": "GitHub",
+      "url": "https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"
+    },
+    {
+      "title": "Postman",
+      "url": "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg"
+    },
+    {
+      "title": "Figma",
+      "url": "https://www.vectorlogo.zone/logos/figma/figma-icon.svg"
+    },
+    {
+      "title": "Tailwind",
+      "url": "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Weather App",
+      "description": "My own Weather App using <a href='https://api.met.no'>api.met.no</a> and <a href='https://opencagedata.com'>OpenCage</a>.",
+      "techs": "ReactJS | Typescript | Tailwind | ShadCn",
+      "source": "https://github.com/AlexandreDiano/WeatherApp",
+      "url": "https://weather-app-alexandre-diano.vercel.app",
+      "url_logo": "public/weather.png"
+    },
+    {
+      "title": "Chat",
+      "description": "A simple real-time chat using WebSocket",
+      "techs": "ReactJS | Typescript | Tailwind | ShadCn",
+      "source": "",
+      "url": "",
+      "url_logo": "public/chat.png"
+    },
+    {
+      "title": "LetterBox",
+      "description": "Just a app like a LetterBox for my own use",
+      "techs": "ReactJS | Typescript | Tailwind | ShadCn",
+      "source": "",
+      "url": "",
+      "url_logo": "public/letterbox.png"
+    },
+    {
+      "title": "RU Bot",
+      "description": "A bot to tell me what is the menu will be at my college restaurant",
+      "techs": "ReactJS | Typescript | Tailwind | ShadCn",
+      "source": "",
+      "url": "",
+      "url_logo": "public/bot.png"
+    }
+  ]
+}

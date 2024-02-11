@@ -1,0 +1,187 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --background: 0 0% 100%;
+        --foreground: 222.2 84% 4.9%;
+
+        --card: 0 0% 100%;
+        --card-foreground: 222.2 84% 4.9%;
+
+        --popover: 0 0% 100%;
+        --popover-foreground: 222.2 84% 4.9%;
+
+        --primary: 222.2 47.4% 11.2%;
+        --primary-foreground: 210 40% 98%;
+
+        --secondary: 210 40% 96.1%;
+        --secondary-foreground: 222.2 47.4% 11.2%;
+
+        --muted: 210 40% 96.1%;
+        --muted-foreground: 215.4 16.3% 46.9%;
+
+        --accent: 210 40% 96.1%;
+        --accent-foreground: 222.2 47.4% 11.2%;
+
+        --destructive: 0 84.2% 60.2%;
+        --destructive-foreground: 210 40% 98%;
+
+        --border: 214.3 31.8% 91.4%;
+        --input: 214.3 31.8% 91.4%;
+        --ring: 222.2 84% 4.9%;
+
+        --radius: 0.5rem;
+    }
+
+    .dark {
+        --background: 222.2 84% 4.9%;
+        --foreground: 210 40% 98%;
+
+        --card: 222.2 84% 4.9%;
+        --card-foreground: 210 40% 98%;
+
+        --popover: 222.2 84% 4.9%;
+        --popover-foreground: 210 40% 98%;
+
+        --primary: 210 40% 98%;
+        --primary-foreground: 222.2 47.4% 11.2%;
+
+        --secondary: 217.2 32.6% 17.5%;
+        --secondary-foreground: 210 40% 98%;
+
+        --muted: 217.2 32.6% 17.5%;
+        --muted-foreground: 215 20.2% 65.1%;
+
+        --accent: 217.2 32.6% 17.5%;
+        --accent-foreground: 210 40% 98%;
+
+        --destructive: 0 62.8% 30.6%;
+        --destructive-foreground: 210 40% 98%;
+
+        --border: 217.2 32.6% 17.5%;
+        --input: 217.2 32.6% 17.5%;
+        --ring: 212.7 26.8% 83.9%;
+    }
+}
+
+@layer base {
+    * {
+        @apply border-border font-raleway;
+    }
+
+    h1 {
+        @apply text-6xl
+    }
+
+    h2 {
+        @apply text-5xl
+    }
+
+    h3 {
+        @apply text-4xl
+    }
+
+    h4 {
+        @apply text-3xl
+    }
+
+    h5 {
+        @apply text-2xl
+    }
+
+    h6 {
+        @apply text-xl
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        @apply font-playfair text-center italic;
+    }
+
+    h1, h2 {
+        @apply font-black;
+    }
+
+    h3, h4 {
+        @apply font-extrabold text-5xl;
+    }
+
+    h5, h6 {
+        @apply font-bold;
+    }
+
+    p {
+        @apply font-playfair
+    }
+
+    body {
+        @apply bg-background text-foreground dark overflow-x-hidden;
+    }
+
+    a {
+        text-decoration: underline;
+    }
+}
+
+@layer components {
+    .display-flex {
+        @apply flex justify-center content-center mb-10
+    }
+
+    .container {
+        @apply display-flex flex-col p-3 text-center
+    }
+
+    .text {
+        @apply text-3xl font-bold text-center italic
+    }
+
+    .highlight {
+        @apply text-yellow-300 font-black font-playfair
+    }
+
+    .presentation-wrapper {
+        @apply display-flex mb-10 mx-5 flex-col laptop:flex-row  4k:mr-[350px]
+    }
+
+    .presentation-text-wrapper {
+        @apply display-flex text mb-10
+    }
+
+    .presentation-text {
+        @apply flex-col text-center laptopL:w-4/5 4k:w-5/12
+    }
+
+    .presentation-image-wrapper {
+        @apply display-flex
+    }
+
+    .presentation-image {
+        @apply bg-white w-[500px] h-[300px] laptop:ml-10
+    }
+
+    .about-wrapper {
+        @apply display-flex
+    }
+
+    .about-text-wrapper {
+        @apply display-flex text mb-10 px-2 4k:w-7/12
+    }
+
+    .knowledge-wrapper {
+        @apply display-flex
+    }
+
+    .project-wrapper {
+        @apply display-flex
+    }
+
+    .project-list-wrapper {
+        @apply display-flex flex-col
+    }
+
+    .project-image {
+        @apply bg-white rounded-md w-[300px] h-[150px] mobileM:w-[350px] mobileM:h-[175px] mobileL:w-[400px] mobileL:h-[200px] tablet:w-[500px] tablet:h-[250px] laptop:w-[600px] laptop:h-[250px] laptopL:w-[600px] laptopL:h-[300px]
+    }
+}
