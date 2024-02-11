@@ -132,7 +132,7 @@
       "techs": "ReactJS | Typescript | Tailwind | ShadCn",
       "source": "https://github.com/AlexandreDiano/WeatherApp",
       "url": "https://weather-app-alexandre-diano.vercel.app",
-      "url_logo": "public/weather.png"
+      "url_logo": "/weather.png"
     },
     {
       "title": "Chat",
@@ -140,7 +140,7 @@
       "techs": "ReactJS | Typescript | Tailwind | ShadCn",
       "source": "",
       "url": "",
-      "url_logo": "public/chat.png"
+      "url_logo": "/chat.png"
     },
     {
       "title": "LetterBox",
@@ -148,7 +148,7 @@
       "techs": "ReactJS | Typescript | Tailwind | ShadCn",
       "source": "",
       "url": "",
-      "url_logo": "public/letterbox.png"
+      "url_logo": "/letterbox.png"
     },
     {
       "title": "RU Bot",
@@ -156,7 +156,7 @@
       "techs": "ReactJS | Typescript | Tailwind | ShadCn",
       "source": "",
       "url": "",
-      "url_logo": "public/bot.png"
+      "url_logo": "/bot.png"
     }
   ]
 }
