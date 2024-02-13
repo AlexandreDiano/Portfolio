@@ -80,6 +80,10 @@
       "title": "NodeJS",
       "url": "https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg"
     },
+     {
+      "title": "Bun",
+      "url": "https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/bun/bun-original.svg"
+    },
     {
       "title": "Express",
       "url": "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg"
