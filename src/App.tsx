@@ -6,9 +6,9 @@ import data from "./data.json";
 function App() {
   return (
     <div className="container">
-      <h2 className="mb-20" id="presentation">
+      <h3 className="mb-20" id="presentation">
         Alexandre Diano
-      </h2>
+      </h3>
 
       <div className="presentation-wrapper">
         <div className="presentation-text-wrapper">
@@ -53,24 +53,25 @@ function App() {
       </div>
 
       <h3 className="mb-20" id="knowledge">
-        Knowledge
+        Skills
       </h3>
 
       <div className="knowledge-wrapper">
         <Carousel className="w-full" opts={{loop: true}} plugins={[
           Autoplay({
             delay: 2000,
+            stopOnInteraction: false
           }),
         ]}>
           <CarouselContent className="-ml-1">
             {data.knowledge.map((item, index) => (
               <CarouselItem key={index}
-                            className="pl-1 basis-1/2 tablet:basis-1/3 laptop:basis-1/4 laptopL:basis-1/5 4k:basis-1/12">
+                            className="pl-1 basis-1/2 tablet:basis-1/3 laptop:basis-1/4 laptopL:basis-1/5 4k:basis-1/12 ultrawide:basis-80">
                 <div className="p-1">
                   <Card className="border-0">
                     <CardContent
                       className="flex aspect-square items-center justify-center p-6 bg-slate-900 rounded-xl flex-col">
-                      <img src={item.url} alt="" className="w-3/4 h-3/4"/>
+                      <img src={item.url} alt="" className={`w-3/4 h-3/4 ${item.invert && 'invert'}`}/>
                       <span className="text-slate-400 font-black mt-7 text-1xl text-center">{item.title}</span>
                     </CardContent>
                   </Card>

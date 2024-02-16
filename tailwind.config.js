@@ -11,7 +11,7 @@ module.exports = {
   theme: {
     fontFamily: {
       'raleway': ["Raleway", "Arial", 'sans-serif'],
-      'playfair': ["Playfair Display", "Arial", 'sans-serif']
+      'cormorant': ["Cormorant", "Arial", 'sans-serif']
     },
     container: {
       center: true,

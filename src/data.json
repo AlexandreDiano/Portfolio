@@ -9,6 +9,7 @@
       "url": "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
     },
     {
+      "invert": true,
       "title": "NextJS",
       "url": "https://cdn.worldvectorlogo.com/logos/next-js.svg"
     },
@@ -33,6 +34,7 @@
       "url": "https://cdn.worldvectorlogo.com/logos/django.svg"
     },
     {
+      "invert": true,
       "title": "Flask",
       "url": "https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg"
     },
@@ -53,6 +55,7 @@
       "url": "https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg"
     },
     {
+      "invert": true,
       "title": "Cypress",
       "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/6e46ec1fc23b60c8fd0d2f2ff46db82e16dbd75f/icons/cypress.svg"
     },
@@ -85,6 +88,7 @@
       "url": "https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/bun/bun-original.svg"
     },
     {
+      "invert": true,
       "title": "Express",
       "url": "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg"
     },
