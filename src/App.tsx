@@ -22,9 +22,9 @@ function App() {
             new and incredible things.
           </p>
         </div>
-        <div className="presentation-image-wrapper">
+{/*         <div className="presentation-image-wrapper">
           <div className="presentation-image"></div>
-        </div>
+        </div> */}
       </div>
 
       <h3 className="mb-20" id="about-me">
