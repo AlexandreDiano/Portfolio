@@ -5,32 +5,37 @@ import data from "./data.json";
 
 function App() {
   return (
-    <div className="presentation-wrapper">
-  <div className="presentation-text-wrapper">
-    <p className="presentation-text">
-      <p className="highlight">Hello!</p>
-      I'm Alexandre, a <span className="highlight">Full Stack Developer</span> with expertise in modern web technologies and a growing passion for <span className="highlight">Artificial Intelligence</span> and <span className="highlight">Computer Vision</span>. With a degree in System Analysis and Development from <span className="highlight">UFPR (Federal University of Paraná)</span>, I combine strong foundational development skills with cutting-edge technology exploration.
-    </p>
-  </div>
-</div>
-
-<h3 className="mb-20" id="about-me">
-  About Me
-</h3>
-
-<div className="about-wrapper">
-  <div className="about-text-wrapper">
-    <p>
-      While I excel in web development, I'm also deeply interested in AI and Computer Vision, actively working on projects involving <span className="highlight">TensorFlow</span> and <span className="highlight">PyTorch</span>. My focus is on bridging the gap between web technologies and AI applications, exploring innovative ways to integrate machine learning models into web platforms.
-    </p>
-    <p>
-      I'm always eager to take on new challenges and contribute to projects that push the boundaries of technology. Whether it's building scalable web applications or delving into the fascinating world of AI, I bring a <span className="highlight">passionate</span> and <span className="highlight">dedicated</span> approach to every project.
-    </p>
-    <p>
-      Currently, I'm seeking opportunities to leverage my web development expertise while continuing to grow in the AI field. Open to <span className="highlight">collaboration</span> and new challenges! Let's work together to create something incredible.
-    </p>
-  </div>
-</div>
+    <div className="container">
+      <h3 className="mb-20" id="presentation">
+        Alexandre Diano
+      </h3>
+      
+      <div className="presentation-wrapper">
+        <div className="presentation-text-wrapper">
+          <p className="presentation-text">
+            <p className="highlight">Hello!</p>
+              I'm Alexandre, a <span className="highlight">Full Stack Developer</span> with expertise in modern web technologies and a growing passion for <span className="highlight">Artificial Intelligence</span> and <span className="highlight">Computer Vision</span>. With a degree in System Analysis and Development from <span className="highlight">UFPR (Federal University of Paraná)</span>, I combine strong foundational development skills with cutting-edge technology exploration.
+          </p>
+        </div>
+      </div>
+  
+      <h3 className="mb-20" id="about-me">
+        About Me
+      </h3>
+  
+      <div className="about-wrapper">
+        <div className="about-text-wrapper">
+          <p>
+            While I excel in web development, I'm also deeply interested in AI and Computer Vision, actively working on projects involving <span className="highlight">TensorFlow</span> and <span className="highlight">PyTorch</span>. My focus is on bridging the gap between web technologies and AI applications, exploring innovative ways to integrate machine learning models into web platforms.
+          </p>
+          <p>
+            I'm always eager to take on new challenges and contribute to projects that push the boundaries of technology. Whether it's building scalable web applications or delving into the fascinating world of AI, I bring a <span className="highlight">passionate</span> and <span className="highlight">dedicated</span> approach to every project.
+          </p>
+          <p>
+            Currently, I'm seeking opportunities to leverage my web development expertise while continuing to grow in the AI field. Open to <span className="highlight">collaboration</span> and new challenges! Let's work together to create something incredible.
+          </p>
+        </div>
+      </div>
 
 
       <h3 className="mb-20" id="knowledge">
