@@ -27,11 +27,9 @@ function App() {
         <div className="about-text-wrapper">
           <p>
             While I excel in web development, I'm also deeply interested in AI and Computer Vision, actively working on projects involving <span className="highlight">TensorFlow</span> and <span className="highlight">PyTorch</span>. My focus is on bridging the gap between web technologies and AI applications, exploring innovative ways to integrate machine learning models into web platforms.
-          </p>
-          <p>
+         
             I'm always eager to take on new challenges and contribute to projects that push the boundaries of technology. Whether it's building scalable web applications or delving into the fascinating world of AI, I bring a <span className="highlight">passionate</span> and <span className="highlight">dedicated</span> approach to every project.
-          </p>
-          <p>
+      
             Currently, I'm seeking opportunities to leverage my web development expertise while continuing to grow in the AI field. Open to <span className="highlight">collaboration</span> and new challenges! Let's work together to create something incredible.
           </p>
         </div>
