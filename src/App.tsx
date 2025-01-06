@@ -5,52 +5,33 @@ import data from "./data.json";
 
 function App() {
   return (
-    <div className="container">
-      <h3 className="mb-20" id="presentation">
-        Alexandre Diano
-      </h3>
+    <div className="presentation-wrapper">
+  <div className="presentation-text-wrapper">
+    <p className="presentation-text">
+      <p className="highlight">Hello!</p>
+      I'm Alexandre, a <span className="highlight">Full Stack Developer</span> with expertise in modern web technologies and a growing passion for <span className="highlight">Artificial Intelligence</span> and <span className="highlight">Computer Vision</span>. With a degree in System Analysis and Development from <span className="highlight">UFPR (Federal University of Paraná)</span>, I combine strong foundational development skills with cutting-edge technology exploration.
+    </p>
+  </div>
+</div>
 
-      <div className="presentation-wrapper">
-        <div className="presentation-text-wrapper">
-          <p className="presentation-text">
-            <p className="highlight">Hello!</p>
-            I'm Alexandre and I work as a <span className="highlight">developer</span>, focused in web
-            apps. I love innovations and <span className="highlight">creating new things to help as I can</span>. I
-            really enjoy technology and <span className="highlight">Artificial Intelligence</span> as I wish to work
-            around these skills to collaborate
-            with the scientific community and find out
-            new and incredible things.
-          </p>
-        </div>
-{/*         <div className="presentation-image-wrapper">
-          <div className="presentation-image"></div>
-        </div> */}
-      </div>
+<h3 className="mb-20" id="about-me">
+  About Me
+</h3>
 
-      <h3 className="mb-20" id="about-me">
-        About Me
-      </h3>
+<div className="about-wrapper">
+  <div className="about-text-wrapper">
+    <p>
+      While I excel in web development, I'm also deeply interested in AI and Computer Vision, actively working on projects involving <span className="highlight">TensorFlow</span> and <span className="highlight">PyTorch</span>. My focus is on bridging the gap between web technologies and AI applications, exploring innovative ways to integrate machine learning models into web platforms.
+    </p>
+    <p>
+      I'm always eager to take on new challenges and contribute to projects that push the boundaries of technology. Whether it's building scalable web applications or delving into the fascinating world of AI, I bring a <span className="highlight">passionate</span> and <span className="highlight">dedicated</span> approach to every project.
+    </p>
+    <p>
+      Currently, I'm seeking opportunities to leverage my web development expertise while continuing to grow in the AI field. Open to <span className="highlight">collaboration</span> and new challenges! Let's work together to create something incredible.
+    </p>
+  </div>
+</div>
 
-      <div className="about-wrapper">
-        <div className="about-text-wrapper">
-          <p>
-            I always loved technology but it wasn’t until 2018 that I started programming when I got in a SENAI’s system
-            development course and found it quite interesting. I've concluded it by 2019 and then started <span
-            className="highlight">Physics Bachelor graduation in UFPR.</span> I always liked STEM, but I came to realize
-            my true love for codding at the first semester, and after that, I changed my graduation for System Analysis
-            and Development (also at UFPR), recently I've started studying about IoT and I've grown taste for it and it
-            becomes a goal to study about <span className="highlight"> Robotics in Artificial Intelligence</span> on
-            some master degree... what I learn in physics is love the science community so I decided to join on
-            searching for new discoveries but now <span className="highlight">I want to help this community working with Robotics in AI</span>,
-            maybe join this incredible area with Web Development who knows what's possible to do.
-
-            <p className="highlight m-10">let's try new things.</p>
-
-            That's what I have to say for now. If you have any doubt, do not hesitate calling me. Hope we'll be in touch
-            soon!
-          </p>
-        </div>
-      </div>
 
       <h3 className="mb-20" id="knowledge">
         Skills
